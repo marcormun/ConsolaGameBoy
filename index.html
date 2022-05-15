@@ -9,7 +9,9 @@
 </head>
 <body>
     <div id="contenedorGeneral">
+        <!-- El siguiente div contiene toda la parte de la pantalla, inluye los tres circulos -->
         <div id="parteSuperior">
+            <!-- Contiene la barra lateral que se situa encima de la pantalla -->
             <div id="parteSuperiorEncendido">
                 <div id="superiorCirculoPequeño"></div>
                 <div id="espacioBlanco"></div>
@@ -18,7 +20,9 @@
                 <div id="superiorCirculoPequeño"></div>
             </div>
             <div id="parteSuperiorPantalla">
+                <!-- Barra lateral situada a la izquierda de la pantalla -->
                 <div id="pantallaBordeIzquierda"></div>
+                <!-- Incluye toda la pantalla, incluido el borde grisáceo con el logo de la consola -->
                 <div id="pantallaCentral">
                     <div id="barraSuperiorPantalla"></div>
                     <div id="lcd"></div>
@@ -26,16 +30,20 @@
                     <div id="nombreConsola">
                         <img src="img/logo.png" alt="" class="tamaño">
                     </div>
+                    <!-- Espacio en blanco -->
                     <div id="espacioVacioAbajo"></div>
                 </div>
+                <!-- Barra lateral situada a la derecha de la pantalla -->
                 <div id="pantallaBordeDerecho"></div>
             </div>
-            <div id="parteSuperiorLogo">
+            <!-- Barra lateral situada debajo de la pantalla, incluye los dos circulos -->
+            <div id="parteInferiorLogo">
                 <div id="logoCirculo"></div>
                 <div id="espacioBlanco2"></div>
                 <div id="logoCirculo"></div>
             </div>
         </div>
+        <!-- Agarre entre la parte superior e inferior de la consola -->
         <div id="agarre">
             <div id="agarreIzquierda"></div>
             <div id="agarreCentroIzquierda"></div>
@@ -45,15 +53,19 @@
             </div>
             <div id="agarreDerecha"></div>
         </div>
+        <!-- Inicio de la parte inferior de la consola -->
         <div id="parteInferior">
+            <!-- Incluye todo el espacio vacío del borde izquierdo -->
             <div id="lateralIzquierdoInferior"></div>
             <div id="centroInferior">
+                <!-- Refleja el botón pequeño centrado, único contenido del div -->
                 <div id="centroBotonSuelto">
                     <div id="botonPequeñoBorde">
                         <div id="botonPequeñoInterior"></div>
                     </div>
                 </div>
                 <div id="centro">
+                    <!-- Este div son las flechas de la consola con las diferentes direcciones -->
                     <div id="flechas">
                         <div id="cuadradoFlechasVacio"></div>
                         <div id="cuadradoFlechasVacio"></div>
@@ -81,6 +93,7 @@
                         <div id="cuadradoFlechasVacio"></div>
                         <div id="cuadradoFlechasVacio"></div>
                     </div>
+                    <!-- Contiene los botones A y B, incluyendo el borde que les rodea -->
                     <div id="botonesAB">
                         <div id="botonA">
                             <span class="fuenteAB">A</span>
@@ -89,6 +102,7 @@
                             <span class="fuenteAB">B</span>
                         </div>
                     </div>
+                    <!-- Contiene los circulos chiquitos centrados abajo de la consola -->
                     <div id="ventilacion">
                         <div id="cuadrado"><div class="circulo"></div></div>
                         <div id="cuadrado"><div class="circulo"></div></div>
@@ -108,36 +122,47 @@
                         <div id="cuadrado"><div class="circulo"></div></div>
                     </div>
                 </div>
+                <!-- Parte inferior de la consola donde se situan los botones Select y Start -->
                 <div id="centroBotonesStartSelect">
+                    <!-- Espacio en blanco a los lados de los botones Select y Start -->
                     <div id="espacio1"></div>
                     <div id="espacioBotones">
+                        <!-- Botones separados son dos divs iguales, como única diferencia tienen el nombre del botón -->
                         <div id="botonesSeparados">
+                            <!-- Texto Select -->
                             <div id="botonTexto">
                                 <span class="fuente">SELECT</span>
                             </div>
+                            <!-- Botón Select -->
                             <div id="botonBordeExterior">
                                 <div id="botonBordeInterior">
                                     <div id="botonCentro"></div>
                                 </div>
                             </div>
+                            <!-- Espacio debajo de ambos botones -->
                             <div id="espacioVacioBotones"></div>
                         </div>
                         <div id="botonesSeparados">
+                            <!-- Texto Start -->
                             <div id="botonTexto">
                                 <span class="fuente">START</span>
                             </div>
+                            <!-- Botón Start -->
                             <div id="botonBordeExterior">
                                 <div id="botonBordeInterior">
                                     <div id="botonCentro"></div>
                                 </div>
                             </div>
+                            <!-- Espacio debajo de ambos botones -->
                             <div id="espacioVacioBotones"></div>
                         </div>
                     </div>
+                    <!-- Espacio en blanco a los lados de los botones Select y Start -->
                     <div id="espacio1"></div>
                 </div>
                 
             </div>
+            <!-- Incluye los botones donde se ve reflejado el estado de la consola y el vacio de la parte inferior a estos -->
             <div id="lateralDerechoInferior">
                 <div id="vacioLucesSuperior"></div>
                 <div id="lucesEncendido">
