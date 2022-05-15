@@ -6,5 +6,122 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: rgb(110, 40, 40);
+}
+
+#contenedorGeneral {
+    height: 38em;
+    width: 20em;
+    background-color: yellow;
+}
+#parteSuperior {
+    height: 18em;
+    border-radius: 1em;
+    background-color: #4e4efc;
+    border-radius: 1em;
+}
+#parteSuperiorEncendido{
+    height: 1.8em;
+    background-color:#4e4efc;
+    border-radius: 1em 1em 0em 0em;
+    box-shadow: inset -0.6em 0 0.1em -0.4em #6969ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#superiorCirculoPequeño{
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 1em;
+    background-color: #6969ff;
+}
+#espacioBlanco{
+    height: 1.8em;
+    width: 5em;
+}
+#superiorCentroCirculo{
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background-color: #6969ff;
+}
+
+#parteSuperiorPantalla{
+    height: 14em;
+
+    display: flex;
+    flex-direction: row;
+}
+#pantallaBordeIzquierda{
+    width:1.5em;
+    background-color: #4e4efc;
+}
+#pantallaCentral{
+    padding: 0;
+    margin: 0;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgb(49, 49, 49);
+    border-radius: 0.3em;
+    box-shadow:inset 0em 0em 0em 0.1em #6969ff;
+}
+#pantallaBordeDerecho{
+    width:1.5em;
+    background-color: #4e4efc;
+    box-shadow: inset -0.6em 0 0.1em -0.4em #6969ff;
+}
+#parteSuperiorLogo{
+    height: 2.5em;
+    background-color: #4e4efc;
+    border-radius: 0em 0em 1em 1em;
+    box-shadow: inset -0.6em 0 0.1em -0.4em #6969ff,
+    inset 0 -0.8em 1em -0.6em #323299;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#logoCirculo{
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background-color: #6969ff;
+}
+#espacioBlanco2{
+    height: 2em;
+    width: 12em;
+}
+#barraSuperiorPantalla{
+    height: 1em;
+    width: 1em;
+}
+
+#lcd{
+    height: 13em;
+    width: 15.3em;
+    background: rgb(2,0,36);
+    background: linear-gradient(166deg, rgba(2,0,36,1) 0%, rgba(97,102,105,1) 61%, rgba(0,212,255,1) 100%);
+    box-shadow: inset 0px 0px 17px 5px rgba(0,0,0,0.66);
+}
+#espacioVacio{
+    height: 0.6em;
+    background-color: blueviolet;
+}
+#nombreConsola{
+    width: 15.3em;
+    height: 1.4em;
+    background-color: rgb(49, 49, 49);;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+#espacioVacioAbajo{
+    width: 15.3em;
+    height: 0.2em;
+}
+.tamaño{
+    width:9em;
 }
