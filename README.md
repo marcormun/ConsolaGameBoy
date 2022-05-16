@@ -1,6 +1,6 @@
 # GameBoy Advance SP with CSS
 -------------------
-![](https://i.gyazo.com/f99d8b7b8453a1a3d0f22d32b5778b0b.png)
+<img src="https://i.gyazo.com/f99d8b7b8453a1a3d0f22d32b5778b0b.png" alt="drawing" width="300"/>
 ![](https://i.gyazo.com/2bb083ee8ce60307b15fd138626db0f4.png)
 
 
