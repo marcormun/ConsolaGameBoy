@@ -16,6 +16,7 @@ Open a terminal and clone the repository with the following command:
 ```
     git clone https://github.com/marcormun/ConsolaGameBoy.git
 ```
+Run it with live server and done!
 
 ## Technologies used
 -------------------
