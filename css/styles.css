@@ -343,10 +343,10 @@ body {
 }
 #botonCentro:hover{
     cursor: pointer;
-    box-shadow: inset 0.15em 0 black,
-    inset -0.15em 0 black,
-    inset 0 0.15em black,
-    inset 0 -0.15em black;
+    box-shadow: inset 0.15em 0 0.2em 0.1em black,
+    inset -0.15em 0 0.2em 0.1em black,
+    inset 0 0.15em 0.2em 0.1em black,
+    inset 0 -0.15em 0.2em 0.1em black;
 }
 #espacioVacioBotones{
     height: 0.5em;
@@ -396,10 +396,10 @@ body {
 }
 #botonA:hover{
     cursor: pointer;
-    box-shadow: inset 0.15em 0 black,
-    inset -0.15em 0 black,
-    inset 0 0.15em black,
-    inset 0 -0.15em black;
+    box-shadow: inset 0.15em 0 0.2em 0.1em black,
+    inset -0.15em 0 0.2em 0.1em black,
+    inset 0 0.15em 0.2em 0.1em black,
+    inset 0 -0.15em 0.2em 0.1em black;
 }
 #botonB{
     height: 2em;
@@ -417,10 +417,10 @@ body {
 }
 #botonB:hover{
     cursor: pointer;
-    box-shadow: inset 0.15em 0 black,
-    inset -0.15em 0 black,
-    inset 0 0.15em black,
-    inset 0 -0.15em black;
+    box-shadow: inset 0.15em 0 0.2em 0.1em black,
+    inset -0.15em 0 0.2em 0.1em black,
+    inset 0 0.15em 0.2em 0.1em black,
+    inset 0 -0.15em 0.2em 0.1em black;
 }
 .fuenteAB{
     font-family: Impact, sans-serif;
